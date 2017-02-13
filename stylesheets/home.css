@@ -131,6 +131,34 @@ i {
 
 }
 
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait)
+  {
+  .grid {
+    max-width: 512;
+  }
+  }
+
+
+
+
+/*@media (max-width: 789px){
+
+  .box {
+    width: 49%;
+    height: auto;
+  }
+  .box >img {
+    width: 100%;
+    height: auto;
+  }
+}*/
+
+
+
 
  /*@media screen (max-width: 600px){
 
