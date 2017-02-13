@@ -14,6 +14,7 @@ img {
 
 #df-icon {
   height: 26px;
+  width: 45px;
   padding-right: 10px;
 }
 
@@ -112,7 +113,26 @@ i {
   padding: 20px;
 }
 
- @media (max-width: 600px){
+
+@media (min-width: 791px) and (max-width: 1200px) {
+
+  .grid {
+      max-width: 768px;
+  }
+
+}
+
+
+@media (max-width: 790px) {
+
+  .grid {
+      max-width: 512px;
+  }
+
+}
+
+
+ /*@media screen (max-width: 600px){
 
   .box {
     height: 187.5px;
@@ -128,4 +148,9 @@ i {
 
   }
 
-}
+  img {
+    height: 187.5px;
+    width: 187.5px;
+  }
+
+}*/
