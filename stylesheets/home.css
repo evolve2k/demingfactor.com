@@ -31,9 +31,8 @@ img {
 
 }
 
-#rectangle {
-  height: 384.68px;
   background-color: White;
+.rectangle {
 
 }
 
@@ -64,12 +63,10 @@ h3 {
 
 }
 
-#left-align{
+.left-align{
   text-align: left;
   max-width: 200px;
-
-  padding-top: 0;
-  padding-left: 10px;
+  padding:4px 0 0 20px;
   margin-top: 0;
 }
 
@@ -80,8 +77,7 @@ line-height: 160%;
 color: #345FA5;
 
 max-width: 190px;
-padding-left: 20px;
-
+padding:20px 0 0 20px;
 }
 
 
@@ -94,7 +90,6 @@ footer {
   text-align: center;
 
   height: 300px;
-
   margin-top: 120px;
 
   border-top: solid;
@@ -169,9 +164,9 @@ i {
 
   }
 
-  #rectangle {
     height: 281.25px;
     width: 187.5px;
+  .rectangle {
 
 
   }
