@@ -3,7 +3,6 @@ height:80px;
 background-color: white;
 font-family: 'Muli', sans-serif;
 color: #345FA5;
-max-width: 1600px;
 margin: auto;
 }
 
@@ -42,11 +41,20 @@ img {
 
 h1 {
   font-family: 'Muli', sans-serif;
+  font-weight: 700;
   margin-top: -20px;
-  padding-left: 10PX;
+  padding-left: 10px;
+  padding-right: 30px;
   font-size: 60pt;
+  letter-spacing: -5px;
   color: #345FA5;
+  text-align: justify-all;
   line-height: 120%;
+
+}
+
+.ing {
+  letter-spacing: 1px;
 }
 
 h2{
@@ -172,6 +180,9 @@ i {
 
   h2 {
     font-size: 9.5vw;
+  }
+  .ing {
+    letter-spacing: -1px;
   }
 }
 
