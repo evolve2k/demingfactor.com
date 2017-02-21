@@ -68,7 +68,7 @@ h2{
 .left-align{
   text-align: left;
   max-width: 200px;
-  padding:4px 0 0 20px;
+  padding:4px 10px 0 20px;
   margin-top: 0;
 }
 .description {
@@ -181,9 +181,13 @@ MOBILE
   .ing {
     letter-spacing: -1px;
   }
+  .left-align{
+    padding:4px 10px 0 5px;
+  }
   footer{
     width:100%;
   }
+
 }
 
 
