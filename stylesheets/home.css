@@ -1,47 +1,41 @@
+Body{
+margin: 0 auto;
+}
 .menu-bar {
 height:80px;
+max-width: 1024px;
 background-color: white;
 font-family: 'Muli', sans-serif;
 color: #345FA5;
-margin: auto;
+text-align: left;
 }
-
 img {
   /*display: none;*/
   height: 256px;
   width: 256px;
 }
-
 #df-icon {
   height: 26px;
   width: 45px;
-  padding-left: 10px;
+  padding-left: 12px;
   padding-right: 10px;
   padding-top: 10px;
 }
-
 .grid {
   max-width: 1024px;
   margin: auto;
 }
-
 .grid-sizer,
-
 .box {
   height: 256px;
   width: 256px;
   background-color: white;
   float: left;
-
 }
-
 .rectangle {
   height: 384px;
   background-color: white;
-
-
 }
-
 h1 {
   font-family: 'Muli', sans-serif;
   font-weight: 700;
@@ -53,13 +47,10 @@ h1 {
   color: #345FA5;
   text-align: justify-all;
   line-height: 120%;
-
 }
-
 .ing {
   letter-spacing: 1px;
 }
-
 h2{
   font-family: 'Muli', sans-serif;
   font-size: 40pt;
@@ -72,30 +63,23 @@ h2{
   padding-bottom: 30px;
   padding-right: 10px;
 }
-
-h3 {
-
-
-}
-
+/*h3 {
+}*/
 .left-align{
   text-align: left;
   max-width: 200px;
   padding:4px 0 0 20px;
   margin-top: 0;
 }
-
 .description {
-font-family: 'Muli', sans-serif;
-font-size: 16pt;
-line-height: 160%;
-color: #345FA5;
+  font-family: 'Muli', sans-serif;
+  font-size: 16pt;
+  line-height: 160%;
+  color: #345FA5;
 
-max-width: 190px;
-padding:20px 0 0 20px;
+  max-width: 190px;
+  padding:20px 0 0 20px;
 }
-
-
 footer {
   font-family: 'Muli', sans-serif;
   font-style: underline;
@@ -109,71 +93,81 @@ footer {
 
   border-top: solid;
   border-color: #E30F72
-
 }
-
 .social-links {
-
   font-size: 30pt;
   padding-bottom: 30px;
 }
-
 i {
   padding: 20px;
 }
 
+/*==============================================================================
+TABLET
+==============================================================================*/
 @media (max-width: 1050px) {
-
+  Body{
+    width: 100%;
+    padding-left: 5px;
+  }
+  .container{
+    padding-left: 1.2rem;
+  }
+  .grid {
+    margin:0 auto;
+    padding-left: 10;
+  }
   .grid-sizer,
   .box {
     width: 30vw;
     height: 30vw;
   }
-
   .rectangle {
     width: 30vw;
     height: 45vw;
   }
-
   img {
     width: 30vw;
     height: 30vw;
   }
-
   h1 {
     font-size: 9vw;
   }
   .description {
     font-size: 2.6vw;
   }
-
   h2 {
     font-size: 5.8vw;
   }
 }
-
+/*==============================================================================
+MOBILE
+==============================================================================*/
 @media (max-width: 512px) {
-  .grid {
-    /*width: 49vw;*/
-
+  Body{
+    width: 100%;
+    padding-left: 5px;
   }
-
+  .container{
+    padding-left: .8rem;
+  }
+  .grid {
+    margin:0 auto;
+    padding-left: 10;
+  }
   .grid-sizer,
   .box {
     width: 45vw;
     height: 45vw;
   }
-
   .rectangle {
     width: 45vw;
     height: 67.5vw;
   }
-
   img {
     width: 45vw;
     height: 45vw;
   }
-
   h1 {
     font-size: 14vw;
   }
@@ -181,12 +175,14 @@ i {
     font-size: 4.5vw;
     width: 39vw;
   }
-
   h2 {
     font-size: 9.5vw;
   }
   .ing {
     letter-spacing: -1px;
+  }
+  footer{
+    width:100%;
   }
 }
 
