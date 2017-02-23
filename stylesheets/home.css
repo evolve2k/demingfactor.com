@@ -107,7 +107,7 @@ TABLET
 ==============================================================================*/
 @media (max-width: 1050px) {
   Body{
-    width: 100%;
+    /*width: 100%;*/
     padding-left: 5px;
   }
   .container{
@@ -145,7 +145,7 @@ MOBILE
 ==============================================================================*/
 @media (max-width: 512px) {
   Body{
-    width: 100%;
+    /*width: 100%;*/
     padding-left: 5px;
   }
   .container{
