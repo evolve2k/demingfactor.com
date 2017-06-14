@@ -1,0 +1,120 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+main {
+  display: grid;
+}
+
+a {
+  text-decoration: none;
+}
+
+strong {
+  color: rgb(227, 15, 114);
+}
+
+img {
+  max-width: 100vw;
+}
+
+h2 {
+  margin: 0;
+  font-weight: 500;
+  line-height: 2rem;
+}
+
+.thumbnail-title {
+  margin: .5rem 1rem 1rem;
+}
+
+.about-card {
+  margin: 0 1rem;
+  max-width: 465px;
+}
+
+
+@media (min-width: 700px) {
+  main {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 122px 122px 122px 122px 122px 122px;
+    grid-gap: 1rem;
+  }
+
+  footer a {
+    color: white;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #343333;
+  }
+
+  .thumbnail-tile {
+    width: 32vw;
+  }
+
+  .thumbnail-tile + .web-design-my-money-zen {
+    width: 65.63vw;
+  }
+
+  .thumbnail-tile img {
+    width: 100%;
+  }
+
+  .thumbnail-title{
+    display: none;
+  }
+
+  .about-deming-factor p {
+    color: black;
+  }
+
+  /*Tile card grid layout*/
+  .about-deming-factor {
+    grid-column: 1 / span 1;
+    grid-row: 1 /span 4;
+  }
+
+  .graphic-label-wine{
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 5;
+  }
+
+  .champaign-adelaide-united {
+    grid-column: 3 / span 1;
+    grid-row: 1/ span 5;
+  }
+
+  .installation-space-between {
+    grid-column: 1 / span 1;
+    grid-row: 5 / span 6;
+  }
+
+  .web-design-my-money-zen {
+    grid-column: 2 / span 2;
+    grid-row: 6 / span 5;
+  }
+
+  .about-card {
+    font-size: 1.5rem;
+  }
+
+  #tile1:hover + #tile1 {
+    display: block;
+  }
+
+  .address, .social {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 1rem;
+  }
+  .address {
+    padding-right: 2rem;
+    border-right: 2px solid white;
+  }
+
+}
