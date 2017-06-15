@@ -2,6 +2,10 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+nav {
+  width: 33%;
+}
+
 main {
   display: grid;
 }
@@ -10,7 +14,12 @@ a {
   text-decoration: none;
 }
 
+a, a:visited {
+  color: black;
+}
+
 strong {
+  font-weight: 500;
   color: rgb(227, 15, 114);
 }
 
@@ -21,7 +30,7 @@ img {
 h2 {
   margin: 0;
   font-weight: 500;
-  line-height: 2rem;
+  line-height: 1.6rem;
 }
 
 .thumbnail-title {
@@ -29,27 +38,43 @@ h2 {
 }
 
 .about-card {
-  margin: 0 1rem;
+  margin: 2rem 1rem 0;
   max-width: 465px;
 }
 
+hr {
+  border: 0;
+  width: 98%;
+  height: 1px;
+  background-color: black;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #343333;
+}
+
+footer a, footer a:visted {
+  color: white;
+}
+
+.address, .social {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 1rem;
+}
+.address {
+  padding-right: 2rem;
+}
 
 @media (min-width: 700px) {
   main {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 122px 122px 122px 122px 122px 122px;
-    grid-gap: 1rem;
-  }
-
-  footer a {
-    color: white;
-  }
-
-  footer {
-    display: flex;
-    flex-direction: row;
-    background-color: #343333;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 14% 14% 14% 14% 14% 14% 14% 1fr;
+    grid-gap: 1.5rem;
   }
 
   .thumbnail-tile {
@@ -72,32 +97,33 @@ h2 {
     color: black;
   }
 
-  /*Tile card grid layout*/
+/*Tile card grid layout*/
   .about-deming-factor {
-    grid-column: 1 / span 1;
-    grid-row: 1 /span 4;
+    grid-column: 1;
+    grid-row: 1 / 3;
   }
 
   .graphic-label-wine{
-    grid-column: 2 / span 1;
-    grid-row: 1 / span 5;
+    grid-column: 2;
+    grid-row: 1 / 4;
   }
 
   .champaign-adelaide-united {
-    grid-column: 3 / span 1;
-    grid-row: 1/ span 5;
+    grid-column: 3;
+    grid-row: 1 / 4;
   }
 
   .installation-space-between {
-    grid-column: 1 / span 1;
-    grid-row: 5 / span 6;
+    grid-column: 1;
+    grid-row: 4 / 4;
   }
 
   .web-design-my-money-zen {
-    grid-column: 2 / span 2;
-    grid-row: 6 / span 5;
+    grid-column: 2 / 2;
+    grid-row: 5 / 3;
   }
 
+/*Tile cards*/
   .about-card {
     font-size: 1.5rem;
   }
@@ -106,14 +132,17 @@ h2 {
     display: block;
   }
 
-  .address, .social {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    margin: 1rem;
-  }
+hr{
+  display: none;
+}
+
+/*Footer*/
+  footer {
+      display: flex;
+      flex-direction: row;
+    }
+
   .address {
-    padding-right: 2rem;
     border-right: 2px solid white;
   }
 
