@@ -1,4 +1,5 @@
 body {
+  padding-top: 1rem;
   font-family: 'Poppins', sans-serif;
   color: black;
 }
@@ -8,6 +9,7 @@ nav {
 }
 
 main {
+  padding-bottom: 1rem;
   display: grid;
 }
 
@@ -31,10 +33,10 @@ img {
 h2 {
   margin: 0;
   font-weight: 500;
-  : 1.6rem;
 }
 
 .logo {
+  max-width: 30vw;
   padding: 2rem 1rem 0;
 }
 
@@ -43,6 +45,7 @@ h2 {
 }
 
 .about-card {
+  padding-top: 1rem;
   margin: 0 1rem;
 }
 
@@ -58,19 +61,23 @@ hr {
 }
 
 footer {
+  padding-bottom: 1rem;
   display: flex;
   flex-direction: column;
   background-color: #343333;
 }
 
-footer a, footer a:visted {
+footer *{
   color: white;
+}
+
+.logo img{
+  max-width: 60vw;
 }
 
 .address, .social {
   display: flex;
   flex-direction: column;
-  color: white;
   margin: 1rem;
 }
 .address {
@@ -82,6 +89,22 @@ footer a, footer a:visted {
 }
 
 @media (min-width: 700px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(7, auto);
+    grid-gap: 1.5rem;
+  }
+
+  .thumbnail-tile {
+    width: 49vw;
+  }
+  .thumbnail-tile + .web-design-my-money-zen {
+    width: 99vw;
+  }
+}
+
+@media (min-width: 1000px) {
   main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
