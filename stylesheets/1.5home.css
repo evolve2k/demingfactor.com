@@ -1,0 +1,71 @@
+Body{
+  width: 100%;
+  font-family: 'Muli', sans-serif;
+  color: #345FA5;
+}
+#df-icon {
+  height: 26px;
+  width: 45px;
+  padding-left: 12px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.grid {
+  width:100vw;
+}
+.gridsizer,
+.box{
+  height:60vw;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: grey;
+}
+.two {
+  height:60vw;
+  width: 100%;
+  background-color: black;
+}
+.three{
+  height:60vw;
+  width: 100%;
+  background-color:green;
+}
+@media (min-width: 700px){
+.box{
+  height:60vw;
+  width: 49%;
+  margin-bottom: 10px;
+  background-color: grey;
+}
+.two {
+  height:60vw;
+  width: 49%;
+  background-color: black;
+}
+.three{
+  height:40vw;
+  width: 91%;
+  background-color:green;
+}
+}
+
+@media (min-width: 1000px){
+  .box{
+    height:30vw;
+    width: 32.7%;
+    margin-bottom: 10px;
+    background-color: grey;
+  }
+  .two {
+    height:40vw;
+    width: 32.7%;
+    background-color: black;
+  }
+  .three{
+    height:30vw;
+    width: 66%;
+    background-color:green;
+  }
+}
+
+}
