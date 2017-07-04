@@ -1,0 +1,144 @@
+
+html{
+  font-size: 16px;
+}
+body{
+  font-family: 'Muli', sans-serif;
+  color: #4A4A4A;
+}
+#df-icon {
+  height: 26px;
+  width: 45px;
+  padding: 4%;
+}
+.grid{
+  width: 100vw;
+}
+.header-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 99.5%;
+  height: 50vw;
+  margin-bottom:10px;
+  background-image: url("../images/ashwood-cabsav.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%
+}
+.header-text{
+  padding: 4%;
+  line-height: .4rem;
+  color: white;
+}
+h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+h3{
+  font-size: .8rem;
+  font-weight: 400;
+}
+p{
+  max-width: 600px;
+  font-size: 18px;
+}
+.box{
+  margin-bottom: 10px;
+}
+.text{
+  margin: auto;
+  box-sizing: border-box;
+  padding:0 4%;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.image-long{
+  width:99.5%;
+  height: 120vw;
+}
+.image-rectangle{
+  width:99.5%;
+  height: 50vw;
+}
+#img-one {
+  background-image: url("../images/barossa-shiraz.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%
+}
+#img-two {
+  background-image: url("../images/shiraz-closeup.jpg");
+  background-repeat: no-repeat;
+  background-position: center, left;
+  background-size: 100%
+}
+#img-three {
+  background-image: url("../images/eden-riesling.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%
+}
+#img-four {
+  background-image: url("../images/ashwood-two.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%
+}
+@media (min-width:600px){
+  .text{
+    width:48.5%;
+    height: 30vw;
+    font-size: 1.5vw;
+    background-color: white;
+    margin-bottom: 1rem;
+  }
+  .image-long{
+    width:48.5%;
+    height: 60.5vw;
+  }
+  .image-rectangle{
+    width:48%;
+    height: 30.5vw;
+    left:-7;
+  }
+  p{
+    font-size: 1.6vw;
+  }
+}
+@media (min-width:900px){
+.header-image {
+  width: 98.6%;
+  height: 50vw;
+}
+.header-text{
+  line-height: .6rem;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+h3{
+  font-size: 1rem;
+  font-weight: 200;
+}
+p{
+  font-size: 1.45vw;
+}
+.dropcap{
+}
+.text{
+  width:49%;
+  height: 30vw;
+  margin-bottom: 0;
+}
+.image-long{
+  width:49%;
+  height: 60.5vw;
+}
+.image-rectangle{
+  width:49%;
+  height: 30.5vw;
+  left:-7;
+}
+}
