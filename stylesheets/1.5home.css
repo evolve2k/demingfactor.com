@@ -34,18 +34,14 @@ Body{
 .box{
   height:60vw;
   width: 49%;
-  margin-bottom: 10px;
-  background-color: grey;
 }
 .two {
   height:60vw;
   width: 49%;
-  background-color: black;
 }
 .three{
   height:40vw;
-  width: 91%;
-  background-color:green;
+  width: 99%;
 }
 }
 
@@ -53,18 +49,14 @@ Body{
   .box{
     height:30vw;
     width: 32.7%;
-    margin-bottom: 10px;
-    background-color: grey;
   }
   .two {
     height:40vw;
     width: 32.7%;
-    background-color: black;
   }
   .three{
     height:30vw;
     width: 66%;
-    background-color:green;
   }
 }
 
