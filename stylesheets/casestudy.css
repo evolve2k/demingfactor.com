@@ -6,6 +6,11 @@ body{
   font-family: 'Muli', sans-serif;
   color: #4A4A4A;
 }
+.icon-link{
+  height: 26px;
+  width: 45px;
+  padding: 4%;
+}
 #df-icon {
   height: 26px;
   width: 45px;
@@ -47,7 +52,6 @@ p{
   margin-bottom: 10px;
 }
 .text{
-  margin: auto;
   box-sizing: border-box;
   padding:0 4%;
   font-size: 1rem;
@@ -89,9 +93,8 @@ p{
   .text{
     width:48.5%;
     height: 30vw;
-    font-size: 1.5vw;
     background-color: white;
-    margin-bottom: 1rem;
+    margin-bottom: 10rem;
   }
   .image-long{
     width:48.5%;
@@ -100,10 +103,9 @@ p{
   .image-rectangle{
     width:48%;
     height: 30.5vw;
-    left:-7;
   }
   p{
-    font-size: 1.6vw;
+    font-size: 2vw;
   }
 }
 @media (min-width:900px){
