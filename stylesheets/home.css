@@ -1,12 +1,12 @@
 body {
   margin: 0 auto;
+  font-family: 'Muli', sans-serif;
 }
 
 .menu-bar {
   height: 80px;
   max-width: 1024px;
   background-color: white;
-  font-family: 'Muli', sans-serif;
   color: #345FA5;
   text-align: left;
 }
@@ -42,7 +42,6 @@ img {
 }
 
 h1 {
-  font-family: 'Muli', sans-serif;
   font-weight: 700;
   margin-top: -20px;
   padding-left: 10px;
@@ -59,7 +58,6 @@ h1 {
 }
 
 h2 {
-  font-family: 'Muli', sans-serif;
   font-size: 40pt;
   font-weight: 200;
   color: #345FA5;
@@ -82,7 +80,6 @@ h2 {
 }
 
 .description {
-  font-family: 'Muli', sans-serif;
   font-size: 16pt;
   line-height: 160%;
   color: #345FA5;
@@ -91,8 +88,6 @@ h2 {
 }
 
 footer {
-  font-family: 'Muli', sans-serif;
-  font-style: underline;
   padding-top: 10px;
   font-size: 16pt;
   color: #345FA5;
@@ -100,7 +95,7 @@ footer {
   height: 300px;
   margin-top: 120px;
   border-top: solid;
-  border-color: #E30F72
+  border-color: #E30F72;
 }
 
 .social-links {
@@ -118,7 +113,7 @@ TABLET
 ==============================================================================*/
 
 @media (max-width: 1050px) {
-  Body {
+  body {
     /*width: 100%;*/
     padding-left: 5px;
   }
@@ -158,7 +153,7 @@ MOBILE
 ==============================================================================*/
 
 @media (max-width: 512px) {
-  Body {
+  body {
     /*width: 100%;*/
     padding-left: 5px;
   }
