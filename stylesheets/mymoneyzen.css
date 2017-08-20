@@ -1,0 +1,40 @@
+.header-image{
+  width: 99.5%;
+  height: 56vw;
+  background: url(../images/mmz-homepage.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header-text{
+  color: #4A4A4A
+}
+#img-one {
+  background-image: url("../images/mmz-mobile-login.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+}
+#img-two {
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-position: center, left;
+  background-size: 100%
+}
+#img-three {
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%
+}
+#img-four {
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%
+
+@media (min-width:600px){
+  .image-long{
+    width:49%;
+    height: 50vw;
+  }
+}

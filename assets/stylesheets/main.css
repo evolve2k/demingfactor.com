@@ -1,0 +1,274 @@
+body {
+  padding-top: 1rem;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+nav {
+  width: 33%;
+}
+
+main {
+  padding-bottom: 1rem;
+  display: grid;
+}
+
+a {
+  text-decoration: none;
+}
+
+a, a:visited {
+  color: black;
+}
+
+strong {
+  font-weight: 500;
+  color: rgb(227, 15, 114);
+}
+
+img {
+  max-width: 100vw;
+}
+
+h2 {
+  margin: 0;
+  font-weight: 500;
+}
+
+.logo {
+  max-width: 30vw;
+  padding: 2rem 1rem 0;
+}
+
+.thumbnail-title {
+  margin: .5rem 1rem 1rem;
+}
+
+.about-card {
+  padding-top: 1rem;
+  margin: 0 1rem;
+}
+
+.about-card p {
+  margin: 0;
+}
+
+hr {
+  border: 0;
+  width: 98%;
+  height: 1px;
+  background-color: black;
+}
+
+footer {
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #343333;
+}
+
+footer *{
+  color: white;
+}
+
+.logo img{
+  max-width: 60vw;
+}
+
+.address, .social {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+.address {
+  padding-right: 2rem;
+}
+
+.social a:visited {
+  color: white;
+}
+
+/*@media (min-width: 1000px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(7, auto);
+    grid-gap: 1.5rem;
+  }
+
+  .thumbnail-tile {
+    width: 49vw;
+  }
+  .thumbnail-tile + .web-design-my-money-zen {
+    width: 99vw;
+  }
+}*/
+
+@media (min-width: 1000px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  picture img {
+    max-width: 45vw;
+  }
+
+  .web-design-my-money-zen picture {
+    width: 100vw;
+  }
+
+  .thumbnail-tile {
+    width: 48vw;
+  }
+
+  /*Tile card grid layout*/
+    .logo {
+      grid-column: 1;
+      grid-row: 1;
+    }
+
+    .about-deming-factor {
+      grid-column: 2;
+      grid-row: 2 / 3;
+      justify-self: stretch;
+      align-self: start;
+    }
+
+    .graphic-label-wine{
+      grid-column: 2;
+      grid-row: 1 / 2;
+      justify-self: stretch;
+      align-self: start;
+    }
+
+    .champaign-adelaide-united {
+      grid-column: 1;
+      grid-row: 1 / 2;
+      justify-self: stretch;
+      align-self: start;
+    }
+
+    .installation-space-between {
+      grid-column: 1;
+      grid-row: 2 / 3;
+      justify-self: stretch;
+      align-self: start;
+    }
+
+    .web-design-my-money-zen {
+      grid-column: 1 / 3;
+      grid-row: 3 / 4;
+      justify-self: stretch;
+      align-self: start;
+    }
+    .about-card p {
+      font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1500px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(7, auto);
+    grid-gap: 1.5rem;
+  }
+
+  .thumbnail-tile {
+    width: 32vw;
+  }
+
+  .thumbnail-tile + .web-design-my-money-zen {
+    width: 65.63vw;
+  }
+
+  .thumbnail-tile img {
+    width: 100%;
+  }
+
+  .web-design-my-money-zen img {
+    max-width: 100vw;
+  }
+
+  .thumbnail-title{
+    display: none;
+  }
+
+  .about-deming-factor p {
+    color: black;
+  }
+
+/*Tile card grid layout*/
+  .logo {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .about-deming-factor {
+    grid-column: 1;
+    grid-row: 2 / 4;
+    justify-self: stretch;
+    align-self: start;
+  }
+
+  .graphic-label-wine{
+    grid-column: 2;
+    grid-row: 1 / 6;
+    justify-self: stretch;
+    align-self: start;
+  }
+
+  .champaign-adelaide-united {
+    grid-column: 3;
+    grid-row: 1 / 5;
+    justify-self: stretch;
+    align-self: start;
+  }
+
+  .installation-space-between {
+    grid-column: 1;
+    grid-row: 4 / 9;
+    justify-self: stretch;
+    align-self: start;
+  }
+
+  .web-design-my-money-zen {
+    grid-column: 2 / 4;
+    grid-row: 4 / 8;
+    grid-row-start: 4;
+    grid-row-end: 8;
+    justify-self: stretch;
+    align-self: start;
+  }
+
+/*Tile cards*/
+  .about-card {
+    font-size: 1.4rem;
+    line-height: 2.2rem
+  }
+
+  .about-card p {
+    margin-bottom: 1rem;
+  }
+
+  #tile1:hover + #tile1 {
+    display: block;
+  }
+
+hr{
+  display: none;
+}
+
+/*Footer*/
+  footer {
+      margin-top: -8px;
+      display: flex;
+      flex-direction: row;
+    }
+
+  .address {
+    border-right: 2px solid white;
+  }
+
+}
