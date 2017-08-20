@@ -50,12 +50,10 @@ a{
 }
 .about-card{
   max-width: 18rem;
-  /*font-size: 5vw;*/
   padding: 0 4% 4%;
 }
 .about-card-two{
   display: block;
-  /*font-size: 5vw;*/
   padding: 0 4% 4%;
 }
 .overlay{
@@ -191,23 +189,23 @@ footer *{
   background-image: url(../images/elderidge-shiraz.png);
   background-repeat: no-repeat;
   background-position: center, left;
-  background-size: 100%
+  background-size: 100%;
 }#img-two{
   background-image: url(../images/forever-united.png);
   background-repeat: no-repeat;
   background-position: center, left;
-  background-size: 100%
+  background-size: 100%;
 }#img-three{
   background-image: url(../images/space-between.png);
   background-repeat: no-repeat;
   background-position: center, left;
-  background-size: 100%
+  background-size: 100%;
 }
 #img-four{
   background-image: url(../images/mmz-home.png);
   background-repeat: no-repeat;
   background-position: center, left;
-  background-size: 100%
+  background-size: 100%;
 }
 footer {
     display: flex;
