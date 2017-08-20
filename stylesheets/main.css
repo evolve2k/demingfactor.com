@@ -1,5 +1,6 @@
 html{
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 27px;
 }
 body{
   font-family: 'Muli', sans-serif;
@@ -49,12 +50,12 @@ a{
 }
 .about-card{
   display: none;
-  font-size: 5vw;
+  /*font-size: 5vw;*/
   padding: 0 4% 4%;
 }
 .about-card-two{
   display: block;
-  font-size: 5vw;
+  /*font-size: 5vw;*/
   padding: 0 4% 4%;
 }
 .overlay{
@@ -156,8 +157,10 @@ footer *{
   width: 45px;
 }
 .about-card{
-display: block;
-font-size: 2.5vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+/*font-size: 2.5vw;*/
 }
 .box{
   height:60vw;
@@ -212,7 +215,7 @@ footer {
 
 @media (min-width: 1000px){
   .about-card{
-    font-size: 1.4vw;
+    /*font-size: 1.4vw;*/
   }
   .box{
     height:30vw;
