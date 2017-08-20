@@ -49,7 +49,7 @@ a{
   height:90vw;
 }
 .about-card{
-  display: none;
+  max-width: 18rem;
   /*font-size: 5vw;*/
   padding: 0 4% 4%;
 }
@@ -84,27 +84,34 @@ h5{
   padding: 0 2rem;
   margin: 0;
 }
+#img-zero{
+  display: none;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center, left;
+  min-height: 425px;
+}
 #img-one{
   background-image: url(../images/elderidge-shiraz-mobile.png);
   background-repeat: no-repeat;
   background-position: center, left;
-  background-size: 100%
+  background-size: 100%;
 }#img-two{
   background-image: url(../images/forever-united-mobile.png);
   background-repeat: no-repeat;
   background-position: center, left;
-  background-size: 100%
+  background-size: 100%;
 }#img-three{
   background-image: url(../images/space-between-mobile.png);
   background-repeat: no-repeat;
   background-position: center, left;
-  background-size: 100%
+  background-size: 100%;
 }
 #img-four{
   background-image: url(../images/mmz-home-mobile.png);
   background-repeat: no-repeat;
   background-position: center, left;
-  background-size: 100%
+  background-size: 100%;
 }
 footer {
   padding-bottom: 2rem;
@@ -157,10 +164,10 @@ footer *{
   width: 45px;
 }
 .about-card{
-display: flex;
-flex-direction: column;
-justify-content: center;
-/*font-size: 2.5vw;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*font-size: 2.5vw;*/
 }
 .box{
   height:60vw;
@@ -176,6 +183,9 @@ justify-content: center;
 }
 .four{
   display: none
+}
+#img-zero{
+  display: block;
 }
 #img-one{
   background-image: url(../images/elderidge-shiraz.png);
@@ -213,8 +223,9 @@ footer {
 }
 }
 
-@media (min-width: 1000px){
+@media (min-width: 1063px){
   .about-card{
+    display: block;
     /*font-size: 1.4vw;*/
   }
   .box{
