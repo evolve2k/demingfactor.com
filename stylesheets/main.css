@@ -17,6 +17,15 @@ body{
   padding-left:.8rem;
   font-size: rem;
 }
+.df-pink{
+  color: rgb(255, 0, 245);
+}
+.df-white{
+  color: #fff;
+}
+.mt0{
+  margin-top: 0rem;
+}
 #df-icon {
   height: 26px;
   width: 45px;
@@ -49,8 +58,9 @@ a{
   height:90vw;
 }
 .about-card{
-  max-width: 18rem;
+  max-width: 25rem;
   padding: 0 4% 4%;
+  margin: auto;
 }
 .about-card-two{
   display: block;
@@ -111,10 +121,12 @@ h5{
   background-size: 100%;
 }
 footer {
+  padding-left: 1rem;
+  padding-right: 1rem;
   padding-bottom: 2rem;
   display: flex;
   flex-direction: column;
-  height: 12rem;
+  min-height: 12rem;
   line-height: 1.5rem;
   background-color: #343333;
 }
@@ -124,7 +136,7 @@ footer *{
 .address{
   display: flex;
   flex-direction: column;
-  margin:1.5rem 1.5rem 0;
+  /*margin:1rem 1rem 0;*/
 }
  .social {
    display: flex;
@@ -132,12 +144,12 @@ footer *{
    margin:1.5rem 0 0;
  }
 .address {
-  padding-right: 2rem;
+  /*padding-right: 2rem;*/
 }
 .social a{
   font-weight: 600;
   text-decoration: none;
-  margin-left: 1.5rem;
+  /*margin-left: 1.5rem;*/
   -webkit-transition: color 500ms;
   -moz-transition: color 500ms;
   -o-transition: color 500ms;
@@ -211,10 +223,12 @@ footer {
     flex-direction: row;
     height: 9rem;
   }
-  .address{
-    border-right: solid 2px white;
+  .address {
+    border-left: solid 2px white;
     height: 8rem;
-  }
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
 .social a{
   margin-left: .5rem;
 }
