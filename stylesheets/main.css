@@ -89,7 +89,7 @@ h5{
   min-height: 425px;
 }
 #img-one{
-  background-image: url(../images/elderidge-shiraz-mobile.png);
+  background-image: url(../images/elderidge-shiraz-mobile.jpg);
   background-repeat: no-repeat;
   background-position: center, left;
   background-size: 100%;
@@ -185,7 +185,7 @@ footer *{
   display: block;
 }
 #img-one{
-  background-image: url(../images/elderidge-shiraz.png);
+  background-image: url(../images/elderidge-shiraz.jpg);
   background-repeat: no-repeat;
   background-position: center, left;
   background-size: 100%;
@@ -201,7 +201,7 @@ footer *{
   background-size: 100%;
 }
 #img-four{
-  background-image: url(../images/mmz-home.png);
+  background-image: url(../images/mmz-home.jpg);
   background-repeat: no-repeat;
   background-position: center, left;
   background-size: 100%;
