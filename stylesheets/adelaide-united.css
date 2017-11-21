@@ -1,7 +1,7 @@
 .header-image {
   width:  99.5%;
   height: 57vw;
-  background-image: url("../images/adelaide-united-poster-03.png");
+  background-image: url("../images/adelaide-united-poster-03.jpg");
   background-position: top;
 }
 .icon-link{
@@ -25,19 +25,19 @@
   height: 60vw;
 }
 #img-one {
-  background-image: url("../images/adelaide-united-poster-01.png");
+  background-image: url("../images/adelaide-united-poster-01.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: top;
 }
 #img-two {
-  background-image: url("../images/adelaide-united-poster-02.png");
+  background-image: url("../images/adelaide-united-poster-02.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: top;
 }
 #img-three {
-  background-image: url("../images/adelaide-united-social-media.png");
+  background-image: url("../images/adelaide-united-social-media.jpg");
   background-repeat: no-repeat;
   background-position: center, left;
   background-size: 100%;
