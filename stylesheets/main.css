@@ -33,6 +33,7 @@ body{
 .grid {
   display: flex;
   width:100vw;
+  /* height: 30rem; */
 }
 .gridsizer,
 .box{
@@ -121,17 +122,25 @@ h5{
   background-size: 100%;
 }
 footer {
-  padding-left: 1rem;
-  padding-right: 1rem;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
   padding-bottom: 2rem;
-  display: flex;
   flex-direction: column;
   min-height: 12rem;
   line-height: 1.5rem;
-  background-color: #343333;
+  background-color: #ffffff;
 }
-footer *{
-  color: white;
+footer.grid{
+  height: 11rem;
+}
+footer .box{
+  height:7rem;
+}
+/* footer *{
+  color: ;
+} */
+section{
+  padding-left: 2rem;
 }
 .address{
   display: flex;
@@ -141,7 +150,6 @@ footer *{
  .social {
    display: flex;
    flex-direction: column;
-   margin:1.5rem 0 0;
  }
 .address {
   /*padding-right: 2rem;*/
@@ -221,17 +229,10 @@ footer *{
 footer {
     display: flex;
     flex-direction: row;
+    align-items: center;
     height: 9rem;
   }
-  .address {
-    border-left: solid 2px white;
-    height: 8rem;
-    padding-left: 1rem;
-    padding-top: 1rem;
-}
-.social a{
-  margin-left: .5rem;
-}
+footer p {margin-top: 0px}
 }
 
 @media (min-width: 1063px){
