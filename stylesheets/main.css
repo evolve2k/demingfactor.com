@@ -1,240 +1,301 @@
-html{
+html {
   font-size: 18px;
   line-height: 27px;
 }
-body{
+
+body {
   font-family: 'Muli', sans-serif;
   color: #4A4A4A;
 }
-.page-header{
+
+.page-header {
   padding: 4% 0 0 4%;
   display: flex;
   flex-direction: row;
 }
-.page-header h2{
+
+.page-header h2 {
   margin-top: -.3rem;
   margin-bottom: 0;
-  padding-left:.8rem;
+  padding-left: .8rem;
   font-size: rem;
 }
+
+.df-pink {
+  color: rgb(255, 0, 245);
+}
+
+.df-white {
+  color: #fff;
+}
+
+.mt0 {
+  margin-top: 0rem;
+}
+
 #df-icon {
   height: 26px;
   width: 45px;
 }
+
 .grid {
   display: flex;
-  width:100vw;
+  width: 100vw;
 }
-.gridsizer,
-.box{
-  height:60vw;
+
+.gridsizer, .box {
+  height: 60vw;
   width: 100%;
   margin-bottom: 10px;
 }
-a{
+
+a {
   text-decoration: none;
 }
-.one{
-  height:10vw;
+
+.one {
+  height: 10vw;
 }
+
 .two {
-  height:60vw;
+  height: 60vw;
   width: 100%;
 }
-.three{
-  height:60vw;
+
+.three {
+  height: 60vw;
   width: 100%;
 }
-.four{
-  height:90vw;
+
+.four {
+  height: 90vw;
 }
-.about-card{
-  max-width: 18rem;
+
+.about-card {
+  max-width: 25rem;
   padding: 0 4% 4%;
+  margin: auto;
 }
-.about-card-two{
+
+.about-card-two {
   display: block;
   padding: 0 4% 4%;
 }
-.overlay{
+
+.overlay {
   display: flex;
   flex-direction: column;
   opacity: 0;
   height: 100%;
-  background-color:rgba(0, 0, 0, 0.57);
+  background-color: rgba(0, 0, 0, 0.57);
   color: white;
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
 }
-.overlay:hover{
+
+.overlay:hover {
   opacity: 1;
 }
-h4{
+
+h4 {
   font-size: 1.5rem;
   font-weight: 800;
   padding: 2rem 2rem 0;
   margin: 0;
 }
-h5{
+
+h5 {
   font-size: 1rem;
   padding: 0 2rem;
   margin: 0;
 }
-#img-zero{
+
+#img-zero {
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center, left;
   min-height: 425px;
 }
-#img-one{
-  background-image: url(../images/elderidge-shiraz-mobile.jpg);
+
+#img-one {
+  background-image: url(../images/elderidge-shiraz-mobile.png);
   background-repeat: no-repeat;
   background-position: center, left;
   background-size: 100%;
-}#img-two{
+}
+
+#img-two {
   background-image: url(../images/forever-united-mobile.png);
   background-repeat: no-repeat;
   background-position: center, left;
   background-size: 100%;
-}#img-three{
+}
+
+#img-three {
   background-image: url(../images/space-between-mobile.png);
   background-repeat: no-repeat;
   background-position: center, left;
   background-size: 100%;
 }
-#img-four{
+
+#img-four {
   background-image: url(../images/mmz-home-mobile.png);
   background-repeat: no-repeat;
   background-position: center, left;
   background-size: 100%;
 }
+
 footer {
   padding-bottom: 2rem;
-  display: flex;
   flex-direction: column;
-  height: 12rem;
+  min-height: 12rem;
   line-height: 1.5rem;
-  background-color: #343333;
+  background-color: #2B2A36;
 }
-footer *{
+
+footer.grid {
+  height: 11rem;
+}
+
+footer .box {
+  height: 8rem;
+}
+
+footer * {
   color: white;
 }
-.address{
+
+input {
+  min-width: 7rem;
+  min-height: 2rem;
+  padding-left: 0.5rem;
+  background: none;
+  border: 2px solid black;
+}
+
+section {
+  padding-left: 2rem;
+}
+
+.address {
   display: flex;
   flex-direction: column;
-  margin:1.5rem 1.5rem 0;
 }
- .social {
-   display: flex;
-   flex-direction: column;
-   margin:1.5rem 0 0;
- }
+
+.social {
+  display: flex;
+  flex-direction: column;
+}
+
 .address {
-  padding-right: 2rem;
 }
-.social a{
+
+.social a {
   font-weight: 600;
   text-decoration: none;
-  margin-left: 1.5rem;
   -webkit-transition: color 500ms;
   -moz-transition: color 500ms;
   -o-transition: color 500ms;
   transition: color 500ms;
 }
+
 .social a:visited {
   color: white;
 }
-.social a:hover, a:focus{
+
+.social a:hover, a:focus {
   color: rgb(255, 0, 245);
 }
-@media (min-width: 700px){
-.page-header h2{
-  margin-top: -.3rem;
-  margin-bottom: 0;
-  padding-left:.8rem;
-  font-size: 1.8rem;
-}
-#df-icon {
-  height: 26px;
-  width: 45px;
-}
-.about-card{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /*font-size: 2.5vw;*/
-}
-.box{
-  height:60vw;
-  width: 49%;
-}
-.two {
-  height:60vw;
-  width: 49%;
-}
-.three{
-  height:40vw;
-  width: 99%;
-}
-.four{
-  display: none
-}
-#img-zero{
-  display: block;
-}
-#img-one{
-  background-image: url(../images/elderidge-shiraz.jpg);
-  background-repeat: no-repeat;
-  background-position: center, left;
-  background-size: 100%;
-}#img-two{
-  background-image: url(../images/forever-united.png);
-  background-repeat: no-repeat;
-  background-position: center, left;
-  background-size: 100%;
-}#img-three{
-  background-image: url(../images/space-between.png);
-  background-repeat: no-repeat;
-  background-position: center, left;
-  background-size: 100%;
-}
-#img-four{
-  background-image: url(../images/mmz-home.jpg);
-  background-repeat: no-repeat;
-  background-position: center, left;
-  background-size: 100%;
-}
-footer {
-    display: flex;
-    flex-direction: row;
-    height: 9rem;
-  }
-  .address{
-    border-right: solid 2px white;
-    height: 8rem;
-  }
-.social a{
-  margin-left: .5rem;
-}
-}
 
-@media (min-width: 1063px){
-  .about-card{
-    display: block;
-    /*font-size: 1.4vw;*/
+@media (min-width: 700px) {
+  .page-header h2 {
+    margin-top: -.3rem;
+    margin-bottom: 0;
+    padding-left: .8rem;
+    font-size: 1.8rem;
   }
-  .box{
-    height:30vw;
-    width: 32.7%;
+  #df-icon {
+    height: 26px;
+    width: 45px;
+  }
+  .about-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .box {
+    height: 60vw;
+    width: 49%;
   }
   .two {
-    height:40vw;
+    height: 60vw;
+    width: 49%;
+  }
+  .three {
+    height: 40vw;
+    width: 99%;
+  }
+  .four {
+    display: none
+  }
+  #img-zero {
+    display: block;
+  }
+  #img-one {
+    background-image: url(../images/elderidge-shiraz-mobile.png);
+    background-repeat: no-repeat;
+    background-position: center, left;
+    background-size: cover;
+  }
+  #img-two {
+    background-image: url(../images/forever-united.png);
+    background-repeat: no-repeat;
+    background-position: center, left;
+    background-size: 100%;
+  }
+  #img-three {
+    background-image: url(../images/space-between.png);
+    background-repeat: no-repeat;
+    background-position: center, left;
+    background-size: 100%;
+  }
+  #img-four {
+    background-image: url(../images/mmz-home.jpg);
+    background-repeat: no-repeat;
+    background-position: center, left;
+    background-size: 100%;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 9rem;
+    padding-bottom: 2rem;
+  }
+  footer p {
+    margin-top: 0px
+  }
+}
+
+@media (min-width: 1063px) {
+  .about-card {
+    display: block;
+  }
+  .box {
+    height: 30vw;
     width: 32.7%;
   }
-  .three{
-    height:30vw;
+  .box.double {
+    width: 63.4%;
+}
+  .two {
+    height: 40vw;
+    width: 32.7%;
+  }
+  .three {
+    height: 30vw;
     width: 66%;
   }
 }
