@@ -149,13 +149,11 @@ h5 {
 }
 
 footer {
-  /* padding-left: 1rem;
-    padding-right: 1rem; */
   padding-bottom: 2rem;
   flex-direction: column;
   min-height: 12rem;
   line-height: 1.5rem;
-  background-color: #ffffff;
+  background-color: #2B2A36;
 }
 
 footer.grid {
@@ -166,9 +164,17 @@ footer .box {
   height: 8rem;
 }
 
-/* footer *{
-  color: ;
-} */
+footer * {
+  color: white;
+}
+
+input {
+  min-width: 7rem;
+  min-height: 2rem;
+  padding-left: 0.5rem;
+  background: none;
+  border: 2px solid black;
+}
 
 section {
   padding-left: 2rem;
@@ -243,7 +249,7 @@ section {
     display: block;
   }
   #img-one {
-     background-image: url(../images/elderidge-shiraz-mobile.png);
+    background-image: url(../images/elderidge-shiraz-mobile.png);
     background-repeat: no-repeat;
     background-position: center, left;
     background-size: cover;
@@ -287,6 +293,9 @@ section {
     height: 30vw;
     width: 32.7%;
   }
+  .box.double {
+    width: 63.4%;
+}
   .two {
     height: 40vw;
     width: 32.7%;
