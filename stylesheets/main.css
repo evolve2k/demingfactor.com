@@ -1,4 +1,4 @@
-tml {
+html {
   font-size: 18px;
   line-height: 27px;
 }
@@ -41,7 +41,6 @@ body {
 .grid {
   display: flex;
   width: 100vw;
-  /* height: 30rem; */
 }
 
 .gridsizer, .box {
@@ -183,7 +182,6 @@ section {
 .address {
   display: flex;
   flex-direction: column;
-  /*margin:1rem 1rem 0;*/
 }
 
 .social {
@@ -192,13 +190,11 @@ section {
 }
 
 .address {
-  /*padding-right: 2rem;*/
 }
 
 .social a {
   font-weight: 600;
   text-decoration: none;
-  /*margin-left: 1.5rem;*/
   -webkit-transition: color 500ms;
   -moz-transition: color 500ms;
   -o-transition: color 500ms;
@@ -228,7 +224,6 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /*font-size: 2.5vw;*/
   }
   .box {
     height: 60vw;
@@ -287,7 +282,6 @@ section {
 @media (min-width: 1063px) {
   .about-card {
     display: block;
-    /*font-size: 1.4vw;*/
   }
   .box {
     height: 30vw;
